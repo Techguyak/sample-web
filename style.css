@@ -1,0 +1,128 @@
+.head{
+    height: 50px;
+    width: 100%;
+    background-color:rgb(83, 79, 79);
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: auto;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(lap3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+
+    
+}
+
+.a1{
+    color: #fff;
+    font-size: 25px;
+    padding-left: 13%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.a2{
+    padding-right: 12%;
+}
+.a2 a{
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bg a{
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 11%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.bg p{
+    color: #f1ebeb;
+    font-size: 20px;
+    margin-top: 0;
+}
+.work{
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+}
+.work p1{
+    color:black;
+    border: 12px solid white;
+    background-color: #fff;
+    font-size: 13px;
+    height: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    padding-left: 2px;
+    padding-right:10px;
+
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.or{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 128px;
+}
+
+.ar {
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+.aru {
+        
+        height: 10vh;
+        width: 200vh;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap:wrap;
+        padding: 10px;
+        margin-top: px;
+      }   
+
+ .aru img {
+        height: 250px;
+        width: 250px;
+        border-radius: 0%;
+      }
+ @media (max-width:600px)  {
+        .a1,.a2{
+            padding: 0%;}
+        .a2 a{
+             padding: 3px;
+        }
+        .or{
+            margin-top:30%;
+        }
+        .aru img{
+            height: 20vh;
+            width: 20vh; }  
+          
+      }
