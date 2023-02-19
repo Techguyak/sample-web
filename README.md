@@ -1,4 +1,4 @@
 # sample-web
 --sample web page 
 --under development
---check this out https://github.com/Techguyak/sample-web.git
+--check this out https://techguyak.github.io/sample-web/
