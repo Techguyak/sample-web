@@ -112,7 +112,7 @@ body{
         width: 250px;
         border-radius: 0%;
       }
-      @media (max-width:590px)  {
+      @media (max-width:600px)  {
         .a1,.a2{
             padding: 0%;}
         .a2 a{
