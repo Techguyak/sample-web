@@ -3,8 +3,6 @@
     width: 100%;
     background-color:rgb(83, 79, 79);
     position: relative;
-    
-
     position: sticky;
     top: 0px;
     z-index: 1;
@@ -22,9 +20,7 @@ body{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(lap3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center ;
-
-    
+    background-position: center ;    
 }
 
 .a1{
@@ -79,9 +75,6 @@ body{
     top: 4vh;
     padding-right: 9px;
     padding-left: 9px;
-
-    
-
 }
 .arrow {
     border: solid #4e4949;
@@ -143,8 +136,6 @@ h,h0{
              padding: 3px;
              font-size: 11px;
         }
-        
-        
         .bg a{
             margin-top: 2%;
         }
